@@ -19,4 +19,5 @@ from testapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.retrieve_view),
+    path('create/',views.create_view),
 ]
